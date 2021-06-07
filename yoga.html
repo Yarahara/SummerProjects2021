@@ -3,7 +3,7 @@
         <style>
             h1 {
                 text-align: center;
-                color: red;
+                color: blueviolet;
             }
 
             h2 {
@@ -19,7 +19,7 @@
             }
 
             p {
-                font-size: 14px;
+                font-size: 18px;
                 line-height: 1.5;
             }
 
@@ -29,29 +29,34 @@
                 color: white;
                 border: none;
                 padding: 15px;
-                font-size: 20 px;
+                font-size: 20px;
                 border-radius: 30px;
                 box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
-                margin:""
+                margin:20px 0;
+            }
+
+            footer {
+                text-align: center;
+                font-size: 12px;
             }
         </style>
     </head>
-</html>
+<body>
 <h1>
     Yoga
 </h1>
 <h2>
     Discipline
 </h2>
-<img src ="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Patanjali_Statue.jpg/220px-Patanjali_Statue.jpg"
+<img src ="https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8eW9nYXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
 alt=""
-width = "300" >
+width = "300" />
 <p>
-    Yoga is a group...
-</p>
+    Yoga is a group of physical, mental, and spiritual practices ...
 <br />
 <br />
 <a href="https://en.wikipedia.org/wiki/Yoga">
+    Learn more on Wikipedia
 </a>
 </p>
 <button>
@@ -59,8 +64,8 @@ width = "300" >
 </button>
 <footer>
     Coded by Divine
-    <a href="https://www.shecodes.io">
-    shecodes
+    <a href="https://www.divine-favourable.com">
+    Divine's Blog
     </a>
 </footer>
 
@@ -69,6 +74,13 @@ width = "300" >
         let name = prompt("What is your name?");
         prompt("WHat is your email address?");
 
-        alert("Thanks, ${name}! We'll be in touch!' Meanwhile, don't forget to breathe");
+        alert(
+            "Thanks, ${name}! We'll be in touch! Meanwhile, don't forget to breathe"
+            );
     }
+
+    let button = document.querySelector("button");
+    button.addEventListener("click", subscribe);
 </script>
+</body>
+</html>
