@@ -1,3 +1,5 @@
+#credit to lena elizabeth on Youtube
+
 import random
 import smtplib
 
